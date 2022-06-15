@@ -176,9 +176,11 @@ pod/web created
 
 AME   READY   STATUS    RESTARTS   AGE
 web    1/1     Running   0          83s
+```
 
 ### 2.7 Просмотр описания pod'а.
 
+```
 >>> kubectl describe pod web -n default
 
 Name:         web
