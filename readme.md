@@ -232,7 +232,7 @@ Events:
   Normal  Created    110s  kubelet            Created container webapp
   Normal  Started    110s  kubelet            Started container webapp
 ```
-### 2.7 Проброс наружу порта web-приложения и просмотр http://127.0.0.1:8080:
+### 2.8 Проброс наружу порта web-приложения и просмотр http://127.0.0.1:8080:
 
 ```
 >>> kubectl port-forward pods/web 8080:8000
@@ -244,7 +244,7 @@ Handling connection for 8080
 ```
 ![результат](https://i.ibb.co/Xt32PHM/image.png)
 
-### 2.8 Остановка и удаление:
+### 2.9 Остановка и удаление:
 
 ```shell
 kubectl delete po web
